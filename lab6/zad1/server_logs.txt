@@ -1,0 +1,36 @@
+Tue Apr 25 22:15:58 2023
+client 1
+INIT
+
+Tue Apr 25 22:16:03 2023
+client 2
+INIT
+
+Tue Apr 25 22:16:06 2023
+client 3
+INIT
+
+Tue Apr 25 22:16:11 2023
+client 1
+LIST
+
+Tue Apr 25 22:16:26 2023
+client 2
+TO_ALL Welcome to my fiesta!
+
+Tue Apr 25 22:16:39 2023
+client 1
+TO_ONE 2 Puss in boots!
+
+Tue Apr 25 22:16:42 2023
+client 1
+STOP
+
+Tue Apr 25 22:16:53 2023
+client 2
+TO_ONE 3 The legend!
+
+Tue Apr 25 22:17:04 2023
+client 3
+LIST
+

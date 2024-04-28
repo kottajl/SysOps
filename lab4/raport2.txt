@@ -1,0 +1,12 @@
+Funkcja fork:
+    - proces potomny ignoruje te same sygnaly co rodzic
+    - proces potomny uzywa zainstalowanego przez rodzica handlera
+    - proces potomny maskuje te same sygnaly co rodzic
+    - sygnal zatrzymany przez maske w rodzicu NIE JEST widoczny w procesie potomnym
+
+Funkcja execl:
+    - program potomny ignoruje te same sygnaly co rodzic
+    - program potomny maskuje te same sygnaly co rodzic
+    - sygnal zatrzymany przez maske w rodzicu JEST widoczny w programie potomnym
+
+(oczywiscie wszytko to w zalozeniu, ze nie zdefiniujemy w dziecku innych opcji)

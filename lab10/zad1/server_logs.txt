@@ -1,0 +1,40 @@
+Tue Jun 13 22:34:09 2023
+client 1
+INIT
+
+Tue Jun 13 22:34:14 2023
+client 1
+LIST
+
+Tue Jun 13 22:34:21 2023
+client 2
+INIT
+
+Tue Jun 13 22:34:25 2023
+client 2
+LIST
+
+Tue Jun 13 22:34:29 2023
+client 2
+TO_ALL Hey.
+
+Tue Jun 13 22:34:35 2023
+client 1
+TO_ONE 2 Hello m8.
+
+Tue Jun 13 22:34:38 2023
+client 2
+STOP
+
+Tue Jun 13 22:34:42 2023
+client 3
+INIT
+
+Tue Jun 13 22:34:44 2023
+client 3
+LIST
+
+Tue Jun 13 22:34:47 2023
+client 3
+STOP
+
